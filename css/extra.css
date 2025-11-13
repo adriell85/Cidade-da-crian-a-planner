@@ -1,0 +1,117 @@
+:root {
+  /* Cor principal: barra superior, menu, botões principais */
+  --md-primary-fg-color: #FAAE39;
+  --md-primary-fg-color--light: #FFE2A3;
+  --md-primary-fg-color--dark: #C88413;
+
+  /* Cor de fundo padrão do site */
+  --md-default-bg-color: #23B4B6;
+
+  /* Cor padrão de texto (fora do conteúdo branco) */
+  --md-default-fg-color: #FFFFFF;
+}
+
+/* ===== Fundo geral na cor do parque ===== */
+.md-main {
+  background-color: #23B4B6;
+}
+
+/* Opcional: também garante o fundo do body/container */
+.md-container {
+  background-color: #23B4B6;
+}
+
+/* ===== Conteúdo em cartões brancos para leitura ===== */
+.md-content,
+.md-content .md-typeset {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  padding: 1.2rem;
+  color: #111827; /* texto escuro dentro da página branca */
+}
+
+/* ===== HEADER / NAVBAR SUPERIOR ===== */
+.md-header {
+  background-color: #FAAE39;
+  color: #1F2933; /* texto escuro sobre o amarelo */
+}
+
+/* Título, logo e botões do header */
+.md-header__title,
+.md-header__button,
+.md-header__button svg,
+.md-header .md-icon {
+  color: #1F2933;
+  fill: #1F2933;
+}
+
+/* Tabs do topo (se estiver usando) */
+.md-tabs {
+  background-color: #FAAE39;
+  color: #1F2933;
+}
+
+.md-tabs__link {
+  color: #1F2933;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:focus,
+.md-tabs__link:hover {
+  color: #111827;
+  border-bottom-color: #1F2933;
+}
+
+/* ===== SIDEBAR / NAV LATERAL ===== */
+.md-sidebar {
+  border-radius: 0 12px 12px 0;
+}
+
+/* Sidebar primária (menu principal) */
+.md-sidebar--primary {
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+/* Sidebar secundária (índice da página / table of contents) */
+.md-sidebar--secondary {
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+/* Links do menu lateral */
+.md-nav__link {
+  color: #FFFFFF;
+}
+
+.md-nav__link:hover {
+  background-color: rgba(250, 174, 57, 0.3);
+  border-radius: 8px;
+}
+
+/* Link ativo no menu lateral */
+.md-nav__link--active,
+.md-nav__link--active:hover {
+  background-color: rgba(250, 174, 57, 0.6);
+  color: #1F2933;
+  border-radius: 8px;
+}
+
+/* Títulos de seção no menu lateral */
+.md-nav__title {
+  color: #FFFFFF;
+}
+
+/* Breadcrumbs (se usados) fora da área branca */
+.md-header-nav__title {
+  color: #1F2933;
+}
+
+/* ===== Texto fora da área branca ===== */
+
+/* Garante que texto em áreas gerais (header, sidebars, fundo) sejam claros */
+.md-main,
+.md-sidebar--primary,
+.md-sidebar--secondary {
+  color: #FFFFFF;
+}
