@@ -3,5 +3,5 @@
 Espaço destinado a anotações adicionais, ideias, contatos importantes, lembretes e registros espontâneos.
 
 ---
-
-## 📝 Minhas notas
+<!-- 
+## 📝 Minhas notas -->

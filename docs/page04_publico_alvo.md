@@ -15,6 +15,4 @@ A Cidade da Criança acolhe:
 - Escola / Instituição:  
 - Rede ( ) Pública   ( ) Privada   ( ) Outra:  
 - Nº de crianças:  
-- Faixa etária predominante:  
-- Professores / Responsáveis:  
-- Turno da visita: ( ) Manhã   ( ) Tarde   ( ) Manhã/Tarde
+

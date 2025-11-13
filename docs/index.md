@@ -16,8 +16,8 @@ Este espaço foi pensado para:
 O planner está organizado em **20 páginas**, que podem ser navegadas pelo menu ao lado ou pelos links abaixo:
 
 - 01 – [Capa](page01_capa.md)  
-- 02 – [Apresentação](page02_apresentacao.md)  
-- 03 – [Missão, Visão e Valores](page03_missao_visao_valores.md)  
+- 02 – [Apresentação, Missão, Visão, Valores](page02_apresentacao_com_missao_e_visao.md)  
+- 03 – [Histórico](page03_historico.md)  
 - 04 – [Público-Alvo](page04_publico_alvo.md)  
 - 05 – [Abordagem Pedagógica](page05_abordagem_pedagogica.md)  
 - 06 – [Metodologia da Cidade da Criança](page06_metodologia_cc.md)  
@@ -35,7 +35,7 @@ O planner está organizado em **20 páginas**, que podem ser navegadas pelo menu
 - 18 – [Registro da Experiência](page18_registro_experiencia.md)  
 - 19 – [Plano Pós-Visita](page19_plano_pos_visita.md)  
 - 20 – [Notas Livres](page20_notas_livres.md)  
-
+- 21 - [Exemplo Página de Planejamento](exemplo_Planejamento.md)
 ---
 
 ## 📊 Dashboard de Visitas – Cidade da Criança

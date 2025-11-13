@@ -20,4 +20,4 @@ O brincar é entendido como:
 
 - Campos de experiência / componentes curriculares que pretendo articular:  
 - Temas geradores que podem surgir da visita:  
-- Estratégias de continuação na escola:
+
