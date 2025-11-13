@@ -1,0 +1,44 @@
+site_name: Planner Cidade da Criança
+site_description: Planner pedagógico integrado ao Dashboard de Visitas da Cidade da Criança de Fortaleza
+site_author: Adriell Gomes
+
+theme:
+  name: material
+  palette:
+    - scheme: cidade-crianca
+      primary: '#FAAE39'      # cor da barra superior / menu
+      accent: '#23B4B6'       # cor de destaque (botões, links ativos)
+      toggle:
+        icon: material/weather-night
+        name: Modo escuro
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.top
+
+extra_css:
+  - css/extra.css
+
+nav:
+  - Início: index.md
+  - Planner:
+      - "01 - Capa": page01_capa.md
+      - "02 - Apresentação": page02_apresentacao.md
+      - "03 - Missão, Visão e Valores": page03_missao_visao_valores.md
+      - "04 - Público-Alvo": page04_publico_alvo.md
+      - "05 - Abordagem Pedagógica": page05_abordagem_pedagogica.md
+      - "06 - Metodologia da Cidade da Criança": page06_metodologia_cc.md
+      - "07 - Circuitos Interativos": page07_circuitos.md
+      - "08 - Casas Temáticas": page08_casas_tematicas.md
+      - "09 - Fluxo da Visita (1/5)": page09_fluxo_visita_1.md
+      - "10 - Fluxo da Visita (2/5)": page10_fluxo_visita_2.md
+      - "11 - Fluxo da Visita (3/5)": page11_fluxo_visita_3.md
+      - "12 - Fluxo da Visita (4/5)": page12_fluxo_visita_4.md
+      - "13 - Fluxo da Visita (5/5)": page13_fluxo_visita_5.md
+      - "14 - Fluxo de Trabalho Pedagógico": page14_fluxo_trabalho_pedagogico.md
+      - "15 - Dashboard (Página 1)": page15_dashboard_1.md
+      - "16 - Dashboard (Página 2)": page16_dashboard_2.md
+      - "17 - Indicadores da Turma": page17_indicadores_turma.md
+      - "18 - Registro da Experiência": page18_registro_experiencia.md
+      - "19 - Plano Pós-Visita": page19_plano_pos_visita.md
+      - "20 - Notas Livres": page20_notas_livres.md
