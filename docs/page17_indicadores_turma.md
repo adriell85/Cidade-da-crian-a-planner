@@ -19,6 +19,6 @@
 
 ---
 
-## 📝 Anotações livres sobre indicadores
+<!-- ## 📝 Anotações livres sobre indicadores
 
-- O que gostaria de registrar para futuras visitas:
+- O que gostaria de registrar para futuras visitas: -->

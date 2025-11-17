@@ -12,10 +12,10 @@
 
 ---
 
-## 📝 Casas preferidas da turma
+<!-- ## 📝 Casas preferidas da turma
 
 - Casas que mais chamaram atenção:  
 - Comentários das crianças:
 
 
-## 🕒 Gráficos Qualitativos sobre as Casas
+## 🕒 Gráficos Qualitativos sobre as Casas -->

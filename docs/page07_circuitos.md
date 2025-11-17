@@ -26,8 +26,8 @@
 
 ---
 
-## 📝 Anotações sobre as vivências nos circuitos
+<!-- ## 📝 Anotações sobre as vivências nos circuitos
 
 - Circuitos mais explorados:  
 - Reações das crianças:  
-- Momentos marcantes:
+- Momentos marcantes: -->

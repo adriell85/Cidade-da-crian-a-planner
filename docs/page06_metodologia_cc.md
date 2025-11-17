@@ -10,7 +10,7 @@ A aprendizagem se organiza em torno de:
 
 ---
 
-## 📝 Observações pedagógicas
+<!-- ## 📝 Observações pedagógicas
 
 - O que quero observar ao longo da visita:  
-- Aspectos de desenvolvimento (motor, social, emocional, cognitivo):  
+- Aspectos de desenvolvimento (motor, social, emocional, cognitivo):   -->

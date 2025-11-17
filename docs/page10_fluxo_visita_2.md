@@ -13,8 +13,8 @@
 - Normas de convivência e segurança  
 
 ---
-
+<!-- 
 ## 📝 Impressões iniciais
 
 - Como as crianças reagiram ao chegar:  
-- Comentários que surgiram:
+- Comentários que surgiram: -->

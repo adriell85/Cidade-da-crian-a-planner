@@ -10,9 +10,9 @@ A Cidade da Criança acolhe:
 
 ---
 
-## 📝 Registro da turma visitante
+<!-- ## 📝 Registro da turma visitante
 
 - Escola / Instituição:  
 - Rede ( ) Pública   ( ) Privada   ( ) Outra:  
-- Nº de crianças:  
+- Nº de crianças:   -->
 

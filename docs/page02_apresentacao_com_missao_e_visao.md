@@ -31,8 +31,8 @@ Garantir que cada criança vivencie experiências significativas por meio do bri
 
 ---
 
-## 📝 Minhas anotações
+<!-- ## 📝 Minhas anotações
 
 - Minha missão como educador(a) nesta visita:  
 - O impacto que espero para minha turma:  
-- Valores que quero reforçar com as crianças:
+- Valores que quero reforçar com as crianças: -->

@@ -59,9 +59,9 @@ e evidenciam **viabilidade, impacto e integração intersetorial** da Cidade da 
 
 ---
 
-## 📝 Minhas leituras dos dados
+<!-- ## 📝 Minhas leituras dos dados
 
 - O que os números mostram sobre o uso da Cidade da Criança:  
 - Períodos com maior concentração de visitas:  
 - Tipos de instituições que mais frequentam:  
-- Possíveis ajustes no planejamento das próximas visitas:
+- Possíveis ajustes no planejamento das próximas visitas: -->

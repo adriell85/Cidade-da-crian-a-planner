@@ -10,10 +10,10 @@ Depois da visita, que caminhos abriram na escola?
 - Articulações com outros equipamentos da rede (CRAS, CEIs, UBS, etc.):
 
 ---
-
+<!-- 
 ## 📝 Meu plano de ação
 
 - Encontros de retomada com a turma:  
 - Produções (desenhos, textos, murais, vídeos):  
 - Exposição de fotos da visita:  
-- Registro para o PPP da escola:
+- Registro para o PPP da escola: -->

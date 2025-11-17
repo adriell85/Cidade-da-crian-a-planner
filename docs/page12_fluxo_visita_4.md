@@ -7,8 +7,8 @@
 
 ---
 
-## 📝 Destaques observados
+<!-- ## 📝 Destaques observados
 
 - Brincadeiras espontâneas:  
 - Interações entre as crianças:  
-- Crianças que se destacaram em alguma atividade:
+- Crianças que se destacaram em alguma atividade: -->

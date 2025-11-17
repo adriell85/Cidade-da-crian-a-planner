@@ -29,6 +29,6 @@
 
 ---
 
-## 📝 Como posso aproveitar esses fluxos na minha prática?
+<!-- ## 📝 Como posso aproveitar esses fluxos na minha prática?
 
-- Ideias para levar à escola:  
+- Ideias para levar à escola:   -->

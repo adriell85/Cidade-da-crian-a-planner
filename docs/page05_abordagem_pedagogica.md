@@ -16,8 +16,8 @@ O brincar é entendido como:
 
 ---
 
-## 📝 Como aplicarei com minha turma?
+<!-- ## 📝 Como aplicarei com minha turma?
 
 - Campos de experiência / componentes curriculares que pretendo articular:  
-- Temas geradores que podem surgir da visita:  
+- Temas geradores que podem surgir da visita:   -->
 

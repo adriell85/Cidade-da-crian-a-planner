@@ -8,9 +8,9 @@
 
 ---
 
-## 📝 Anotações pré-visita
+<!-- ## 📝 Anotações pré-visita
 
 - Data agendada:  
 - Turno: ( ) Manhã   ( ) Tarde   ( ) Manhã/Tarde  
 - Transporte:  
-- Comunicados enviados às famílias:
+- Comunicados enviados às famílias: -->

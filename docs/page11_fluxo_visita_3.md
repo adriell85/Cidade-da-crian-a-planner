@@ -12,8 +12,8 @@ Cada grupo permanece um tempo em cada espaço, acompanhado por monitor(es) e pro
 
 ---
 
-## 📝 Organização dos grupos
+<!-- ## 📝 Organização dos grupos
 
 - Grupo 1:  
 - Grupo 2:  
-- Grupo 3:
+- Grupo 3: -->

@@ -17,7 +17,7 @@
 
 ---
 
-## 📝 Relato final da visita
+<!-- ## 📝 Relato final da visita
 
 - O que mais marcou a turma:  
-- Palavras que resumem a experiência:
+- Palavras que resumem a experiência: -->
