@@ -13,6 +13,10 @@
       
       
       
+        <link rel="prev" href="../page09_circuitos/">
+      
+      
+        <link rel="next" href="../page11_rodaDaVida/">
       
       
         
@@ -23,7 +27,7 @@
     
     
       
-        <title>🔎 Indicadores da Visita da Turma - Planner Cidade da Criança</title>
+        <title>10 - Dashboard - Planner Cidade da Criança</title>
       
     
     
@@ -76,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#indicadores-da-visita-da-turma" class="md-skip">
+        <a href="#dashboard-sintese-das-visitas-resumo-grafico" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              🔎 Indicadores da Visita da Turma
+              10 - Dashboard
             
           </span>
         </div>
@@ -248,8 +252,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -260,13 +266,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -287,7 +291,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -582,10 +586,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../page10_dashboard/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -601,6 +614,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -801,36 +815,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#dados-da-turma" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Dados da turma
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#aspectos-observados" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Aspectos observados
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -846,27 +830,58 @@
 
 
 
-<h1 id="indicadores-da-visita-da-turma">🔎 Indicadores da Visita da Turma</h1>
-<h2 id="dados-da-turma">Dados da turma</h2>
-<ul>
-<li>Data da visita:  </li>
-<li>Escola / Instituição:  </li>
-<li>Nº de crianças:  </li>
-<li>Faixa etária:  </li>
-<li>Turno: ( ) Manhã   ( ) Tarde   ( ) Manhã/Tarde  </li>
-</ul>
-<hr />
-<h2 id="aspectos-observados">Aspectos observados</h2>
-<ul>
-<li>Participação geral da turma:  </li>
-<li>Interesse pelos espaços:  </li>
-<li>Interações sociais:  </li>
-<li>Situações que chamaram atenção:</li>
-</ul>
-<hr />
-<!-- ## 📝 Anotações livres sobre indicadores
+<h1 id="dashboard-sintese-das-visitas-resumo-grafico">📊 Dashboard – Síntese das Visitas (Resumo + Gráfico)</h1>
+<section class="cc-box">
+  <style>
+    .cc-box {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #FFFFFF;
+      border-radius: 16px;
+      padding: 1.4rem 1.6rem;
+      margin: 1rem 0 2rem;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      border-left: 6px solid #23B4B6;
+    }
+    .cc-box h2 {
+      margin-top: 0;
+      color: #023047;
+      font-size: 1.45rem;
+    }
+    .cc-highlight {
+      background: #F6FAFF;
+      border: 1px solid #D7E6EE;
+      padding: .9rem 1rem;
+      margin: 1rem 0;
+      border-radius: 12px;
+      font-size: .95rem;
+      line-height: 1.45;
+      color: #374151;
+    }
+    .cc-graph {
+      text-align: center;
+      margin-top: 1.4rem;
+    }
+    .cc-graph img {
+      border-radius: 14px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+      max-width: 100%;
+    }
+  </style>
 
-- O que gostaria de registrar para futuras visitas: -->
+  <h2>📌 Síntese Geral</h2>
+
+  <div class="cc-highlight">
+    O parque foi reaberto em <strong>*10 de agosto de 2025*</strong>, e os sistemas oficiais de registro de visitas passaram a operar de forma padronizada a partir de <strong>setembro/2025</strong>. Por isso, o período analisado corresponde ao intervalo em que há dados completos, consistentes e homologados pelas equipes técnicas.  
+    <br><br>
+    Assim, entre <strong>1/09 e 22/10/2025</strong>, a Cidade da Criança registrou <strong>1.624 participantes</strong> em <strong>134 atividades</strong> realizadas ao longo de <strong>24 dias</strong>, envolvendo <strong>39 escolas</strong>; no mutirão de <strong>18/10</strong> foram aplicadas <strong>199 vacinas</strong> (61 Influenza, 28 Hepatite B, 27 Febre Amarela, 25 DT); a distribuição por turno foi de <strong>868 manhã</strong>, <strong>516 tarde</strong> e <strong>240 dia completo</strong>; e o fluxo estimado do parque atingiu <strong>69.930 visitantes</strong> até <strong>23/10/2025</strong>.
+  </div>
+
+  <div class="cc-graph">
+    <p><strong>Gráfico – Participantes por Turno (Set–Out 2025)</strong></p>
+    <img src="/img/pizza-alunos-por-turno.jpg" alt="Gráfico de Participantes por Turno">
+  </div>
+
+</section>
 
 
 

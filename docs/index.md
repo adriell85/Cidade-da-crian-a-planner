@@ -15,10 +15,29 @@ Este espaço foi pensado para:
 
 O planner está organizado em **20 páginas**, que podem ser navegadas pelo menu ao lado ou pelos links abaixo:
 
-- 01 – [Capa](page01_capa.md)  
+- 00 - [Capa](page00_cover.md)
+- 01 – [Página 1](page01_capa.md)  
 - 02 – [Apresentação, Missão, Visão, Valores](page02_apresentacao_com_missao_e_visao.md)  
-- 03 – [Histórico](page03_historico.md)  
-- 04 – [Público-Alvo](page04_publico_alvo.md)  
+- 03 – [Palavras Institucionais](page03_PalavrasInstitucionais.md)  
+- 04 – [Timeline Cidade Página 1](page04_timeLine1.md)  
+- 05 – [Timeline Cidade Página 2](page05_timeLine2.md) 
+- 06 – [Público Alvo](page06_publico_alvo_and_methodologia.md) 
+- 07 – [Abordagem Pedagógica](page07_abordagem_pedagogica.md) 
+- 08 – [Casas Temáticas](page08_casas_tematicas.md) 
+- 09 – [Circuitos Interativos](page09_circuitos.md)
+- 10 – [Dashboard](page10_dashboard.md)   
+- 11 – [Roda a Vida Pag1](page11_rodaDaVida.md)
+- 12 – [Roda a Vida Pag2](page12_rodaDaVida.md)
+- 13 – [Roda a Vida Pag3](page13_rodaDaVida.md)
+- 14 – [Roda a Vida Pag4](page14_rodaDaVida.md)
+- 15 – [Auto Avaliação Soft Skils](page15_AutoAvaliacaoSoftSkils.md)
+- 16 – [Calendário](page16_Calendário.md)
+
+
+<!-- - 03 – [Histórico](page03_historico.md)  -->
+
+
+<!-- - 04 – [Público-Alvo](page04_publico_alvo.md)  
 - 05 – [Abordagem Pedagógica](page05_abordagem_pedagogica.md)  
 - 06 – [Metodologia da Cidade da Criança](page06_metodologia_cc.md)  
 - 07 – [Circuitos Interativos](page07_circuitos.md)  
@@ -35,7 +54,7 @@ O planner está organizado em **20 páginas**, que podem ser navegadas pelo menu
 - 18 – [Registro da Experiência](page18_registro_experiencia.md)  
 - 19 – [Plano Pós-Visita](page19_plano_pos_visita.md)  
 - 20 – [Notas Livres](page20_notas_livres.md)  
-- 21 - [Exemplo Página de Planejamento](exemplo_Planejamento.md)
+- 21 - [Exemplo Página de Planejamento](exemplo_Planejamento.md) -->
 ---
 
 ## 📊 Dashboard de Visitas – Cidade da Criança
