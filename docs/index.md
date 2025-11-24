@@ -13,48 +13,33 @@ Este espaço foi pensado para:
 
 ## 📘 Planner Pedagógico – Cidade da Criança
 
-O planner está organizado em **20 páginas**, que podem ser navegadas pelo menu ao lado ou pelos links abaixo:
+O planner está organizado em **páginas institucionais principais** e em **ferramentas complementares** (como rodas da vida, autoavaliação e calendários).
 
-- 00 - [Capa](page00_cover.md)
-- 01 – [Página 1](page01_capa.md)  
-- 02 – [Apresentação, Missão, Visão, Valores](page02_apresentacao_com_missao_e_visao.md)  
-- 03 – [Palavras Institucionais](page03_PalavrasInstitucionais.md)  
-- 04 – [Timeline Cidade Página 1](page04_timeLine1.md)  
-- 05 – [Timeline Cidade Página 2](page05_timeLine2.md) 
-- 06 – [Público Alvo](page06_publico_alvo_and_methodologia.md) 
-- 07 – [Abordagem Pedagógica](page07_abordagem_pedagogica.md) 
-- 08 – [Casas Temáticas](page08_casas_tematicas.md) 
-- 09 – [Circuitos Interativos](page09_circuitos.md)
-- 10 – [Dashboard](page10_dashboard.md)   
-- 11 – [Roda a Vida Pag1](page11_rodaDaVida.md)
-- 12 – [Roda a Vida Pag2](page12_rodaDaVida.md)
-- 13 – [Roda a Vida Pag3](page13_rodaDaVida.md)
-- 14 – [Roda a Vida Pag4](page14_rodaDaVida.md)
-- 15 – [Auto Avaliação Soft Skils](page15_AutoAvaliacaoSoftSkils.md)
-- 16 – [Calendário](page16_Calendário.md)
+### 📑 Sequência Institucional (nova organização)
 
+- 00 – [Capa](pages/page00_cover.md)  
+- 01 – [Palavra Dra Cristiane](pages/page01_PalavrasInstitucionais.md)  
+- 02 – [Linha do Tempo](pages/page02_historico.md)  
+- 03 – [Este planner pertence a...](pages/page03_pertence.md)  
+- 04 – [Apresentação da Cidade da Criança](pages/page04_presentation.md)  
+- 05 – [Objetivos da Cidade da Criança](pages/page05_objectives.md)  
+- 06 – [Mapa da Cidade da Criança](pages/page06_mapaCidade.md)  
+- 07 – [Circuitos e Casas Temáticas](pages/page07_circuitoseCasas.md)  
+- 08 – [Metodologia Pedagógica](pages/page08_methodology.md)  
+- 09 – [Gráficos Gerais – Impacto (Página 1)](pages/page09_dashboard_1.md)  
+- 10 – [Gráficos Gerais – Impacto (Página 2)](pages/page10_dashboard_2.md)  
 
-<!-- - 03 – [Histórico](page03_historico.md)  -->
+---
 
+### 🧰 Ferramentas Complementares do Planner
 
-<!-- - 04 – [Público-Alvo](page04_publico_alvo.md)  
-- 05 – [Abordagem Pedagógica](page05_abordagem_pedagogica.md)  
-- 06 – [Metodologia da Cidade da Criança](page06_metodologia_cc.md)  
-- 07 – [Circuitos Interativos](page07_circuitos.md)  
-- 08 – [Casas Temáticas](page08_casas_tematicas.md)  
-- 09 – [Fluxo da Visita (1/5)](page09_fluxo_visita_1.md)  
-- 10 – [Fluxo da Visita (2/5)](page10_fluxo_visita_2.md)  
-- 11 – [Fluxo da Visita (3/5)](page11_fluxo_visita_3.md)  
-- 12 – [Fluxo da Visita (4/5)](page12_fluxo_visita_4.md)  
-- 13 – [Fluxo da Visita (5/5)](page13_fluxo_visita_5.md)  
-- 14 – [Fluxo de Trabalho Pedagógico](page14_fluxo_trabalho_pedagogico.md)  
-- 15 – [Dashboard – Página 1](page15_dashboard_1.md)  
-- 16 – [Dashboard – Página 2](page16_dashboard_2.md)  
-- 17 – [Indicadores da Turma](page17_indicadores_turma.md)  
-- 18 – [Registro da Experiência](page18_registro_experiencia.md)  
-- 19 – [Plano Pós-Visita](page19_plano_pos_visita.md)  
-- 20 – [Notas Livres](page20_notas_livres.md)  
-- 21 - [Exemplo Página de Planejamento](exemplo_Planejamento.md) -->
+- [Roda da Vida – Página 1](page11_rodaDaVida.md)  
+- [Roda da Vida – Página 2](page12_rodaDaVida.md)  
+- [Roda da Vida – Página 3](page13_rodaDaVida.md)  
+- [Roda da Vida – Página 4](page14_rodaDaVida.md)  
+- [Autoavaliação de Soft Skills](page15_AutoAvaliacaoSoftSkils.md)  
+- [Calendários](page16_Calendário.md)  
+
 ---
 
 ## 📊 Dashboard de Visitas – Cidade da Criança
@@ -71,8 +56,8 @@ Entre os indicadores disponíveis, destacam-se:
 
 Para detalhes e espaço reservado para imagens dos gráficos:
 
-- [Dashboard – Página 1](page15_dashboard_1.md)  
-- [Dashboard – Página 2](page16_dashboard_2.md)  
+- [Dashboard – Página 1](pages/page09_dashboard_1.md)  
+- [Dashboard – Página 2](pages/page10_dashboard_2.md)  
 
 ---
 
@@ -93,7 +78,7 @@ Reforçando o caráter **lúdico, inclusivo, afetivo e educativo** do equipament
 ## 🧩 Como usar este ambiente
 
 1. **Antes da visita**  
-   - Leia as seções de apresentação, objetivos, metodologia e fluxo de visita.  
+   - Leia as seções de apresentação, objetivos, metodologia e linha do tempo.  
    - Planeje suas intenções pedagógicas para a turma.  
 
 2. **Durante a visita**  
