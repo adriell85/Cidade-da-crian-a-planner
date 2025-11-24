@@ -199,7 +199,7 @@
       </div>
     </div>
 
-    <div class="cc-tl-item">
+    <!-- <div class="cc-tl-item">
       <div class="cc-tl-year">Ano a definir</div>
       <span class="cc-tl-badge">Memória</span>
       <div class="cc-tl-card">
@@ -207,7 +207,7 @@
         <p>Em determinado período, o parque entra em processo de <strong>abandono</strong>, ficando vulnerável ao vandalismo e à perda de parte de sua infraestrutura original.</p>
         <p><em>(Ano inicial a ser definido com base em pesquisa documental.)</em></p>
       </div>
-    </div>
+    </div> -->
 
     <div class="cc-tl-item cc-tl-item--now">
       <div class="cc-tl-year">2025</div>
