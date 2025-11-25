@@ -214,7 +214,7 @@
       <span class="cc-tl-badge">Cidade da Criança</span>
       <div class="cc-tl-card">
         <h3>Revitalização e Inauguração da Cidade da Criança</h3>
-        <p>O parque histórico é revitalizado e ressignificado como <strong>Cidade da Criança</strong>, integrando educação, cultura, natureza, saúde e proteção social, com foco na primeira infância e na cidade educadora.</p>
+        <p>O parque histórico foi revitalizado pela Primeira-Dama Cristiane Leitão, que instalou ali o seu gabinete. O local ganhou um novo significado e passou a ser conhecido como Cidade da Criança, integrando educação, cultura, natureza, brincar livre, saúde e proteção social. Tornou-se um verdadeiro laboratório da primeira infância, dedicado ao desenvolvimento integral das crianças e ao fortalecimento de suas famílias.</p>
       </div>
     </div>
 

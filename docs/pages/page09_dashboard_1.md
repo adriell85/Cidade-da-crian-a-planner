@@ -1,24 +1,14 @@
 # 📊 Dashboard – Visitas à Cidade da Criança (Página 1)
 
-Este espaço integra o planner com o **Dashboard de Visitas** da Cidade da Criança de Fortaleza.
+> Promover o monitoramento, a análise e a disseminação  de dados e informações estratégicas sobre a **Primeira Infância de Fortaleza** e a **Cidade Das crianças**, com foco na promoção de políticas  públicas integradas, baseadas em evidências, que  assegurem os direitos das crianças de 0 a 6 anos e o  fortalecimento dos vínculos familiares e comunitários.
 
-> **Observação:** O dashboard contabiliza visitas a partir de **setembro/2025** pouco tempo após sua reabertura, e quando, quando as visitas passaram a ser homologadas em planilhas.
 
----
+## Dados sobre as Visitas na Cidade das Crianças Só entre os dias **02/09/2025** e **28/11/2025**:
 
-## 🔗 Fonte de Dados
+### Barra – Visitantes por Dia e por Turno
+![Barra - Visitantes por dia e por Turno](../img/observainfânciaViva.png)
 
-- Formulários de avaliação
-- Sistemas de planilha   
-- Integração com o **Observa Infância Viva**
 
----
-
-<!-- ## 🖼 Tabela de Registro de Visitas da Cidade das Crianças
-
-A imagem abaixo apresenta a **tabela completa de registros**, com data, escola, turno e quantidade de alunos.
-
-![Tabela de Registro de Visitas da Cidade das Crianças](../img/tabela-de-registro-de-visitas-da-cidade-das-criancas-2025-11-13T13-53-26.254Z.jpg) -->
 
 ---
 
@@ -29,143 +19,109 @@ A imagem abaixo apresenta a **tabela completa de registros**, com data, escola, 
 ![Histórico visitasem barra](../img/output%20(3).png)
 
 
-## 📈 Síntese dos Resultados (Análise Consolidada)
+> Top 10 Escolas Visitantes com Mais Alunos
+![top10](../img/barra-top-10-escolas-visitantes-com-mais-alunos-2025-11-24T17-54-23.209Z.jpg)
+> Quantidade de Alunos por Turno
+![quantidadevisitas](../img/pizza-quantidade-de-alunos-por-turno-2025-11-25T19-22-44.395Z.jpg)
+> Quantidade de Alunos por Turno
+![Quantidade turno](../img/barra-quantidade-de-alunos-por-turno-2025-11-25T19-22-47.245Z.jpg)
+> Quantidade de Visitas por Turno
+![Quantidadevisitaturno](../img/pizza-quantidade-de-visitas-por-turno-2025-11-24T17-54-32.813Z.jpg)
+> Quantidade de Visitas por Turno
+![Quantidadevisitaturno2](../img/barra-quantidade-de-visitas-por-turno-2025-11-24T17-54-35.684Z.jpg)
+> Quantitativo Total de Alunos que Já Visitaram a Cidade
+![quantidadeAlunosVisita](../img/quantitativo-total-de-alunos-que-ja-visitaram-a-cidade-2025-11-25T19-22-51.741Z.jpg)
+> Quantitativo Total de Visitas na Cidade
+![QuantidadeVisitas2](../img/quantitativo-total-de-visitas-na-cidade-2025-11-24T17-54-44.950Z.jpg)
 
-Os resultados são mensuráveis e demonstram o impacto crescente da Cidade da Criança:
 
-## Entre **1º de setembro e 22 de outubro de 2025** foram registrados:  
-  - **1.624 participantes**  
-  - em **134 atividades pedagógicas**  
-  - realizadas em **24 dias**  
-  - envolvendo cerca de **39 escolas**  
+## Impacto da Política Pública: Cidade da Criança  
+*(Período: Setembro, Outubro e Novembro)*
 
-## Quando ampliamos os dados para todas as visitas de 2025 – de **2 de setembro a 28 de novembro de 2025** – o acumulado chega a:  
-  - **3.828 participantes**  
-  - em **108 registros de visitas e eventos**  
-  - envolvendo **93 instituições diferentes** (escolas, CEIs, creches, CRAS, projetos e parceiros)
-
-
-<!-- - No eixo **saúde**, em **18 de outubro de 2025** ocorreu um **mutirão de vacinação** com **199 doses aplicadas**:  
-  - Influenza: **61**  
-  - Hepatite B: **28**  
-  - Febre Amarela: **27**  
-  - DT: **25**  
-
-- A **distribuição por turno** no período foi:  
-  - Manhã: **868** participantes  
-  - Tarde: **516** participantes  
-  - Dia completo: **240** participantes  
-
-- Quanto ao **fluxo geral de visitas do parque**, estima-se:  
-  - **57.920 visitantes** no período de **10/08 a 10/10**;  
-  - Subperíodo **23/09 a 10/10**: **14.320 visitantes**;  
-  - Subperíodo **11/10 a 21/10**: **11.420 visitantes**, incluindo estimativa conservadora de **> 5.000 visitantes** no **Domingo do Dia das Crianças**;  
-  - O acumulado atingiu **69.930 visitantes** até **23/10/2025**.   -->
-
-<!-- Esses indicadores alimentam o **Observa Infância Viva** e orientam: -->
-
-<!-- - ajustes de **sombreamento** e **plantio**;  
-- definição de **programação** pedagógica e cultural;  
-- estratégias de **mobilidade ativa** e acessibilidade;   -->
-
-e evidenciam **viabilidade, impacto e integração intersetorial** da Cidade da Criança.
+A Cidade da Criança consolida-se como **política pública estruturante de primeira infância**, promovendo acesso à natureza, à cultura, à ludicidade e a experiências pedagógicas qualificadas.  
+Os indicadores referentes ao circuito interativo, no período de três meses, evidenciam **alcance, equidade e capilaridade** das ações.
 
 ---
 
-<!-- ## 📝 Minhas leituras dos dados
+### 1. Alcance Educacional e Territorial
 
-- O que os números mostram sobre o uso da Cidade da Criança:  
-- Períodos com maior concentração de visitas:  
-- Tipos de instituições que mais frequentam:  
-- Possíveis ajustes no planejamento das próximas visitas: -->
+Foram **108 escolas atendidas em três meses**, contemplando unidades municipais, estaduais, privadas e instituições parceiras.
 
+O número expressivo de escolas demonstra:
 
-# 📊 Dashboard – Avaliações dos professores visitantes à Cidade das Crianças:
+- **Alta capilaridade territorial**, atingindo diferentes bairros e realidades socioeconômicas.  
+- **Integração intersetorial** entre educação, cultura, primeira infância e assistência.  
+- **Reconhecimento das escolas** sobre o valor pedagógico da experiência no parque.
 
+> Este dado, por si só, posiciona a Cidade da Criança como **equipamento estratégico da política de educação integral**.
 
-> Dentre as **18 avaliações** realizadas por parte dos professores das escolas visitantes, pode-se sintetizar os gráficos:
+---
 
-### Resumo tabela - Avaliação Quantitativa
-![tabela avaliação quantitativa](../img/tabela-geral-de-respostas-do-formulario-da-cidade-2025-11-24T18-23-00.788Z.jpg)
+### 2. Impacto Direto nas Crianças
 
+Foram **3.828 crianças atendidas** nos circuitos interativos.
 
-### Resumo tabela - Avaliação Qualitativa
-![tabela avaliação qualitativa](../img/tabela-respostas-por-escola-2025-11-24T18-23-09.318Z.jpg)
+Esse volume revela:
 
+- **Uso intenso, contínuo e qualificado** dos espaços de brincar livre e de aprendizagem.  
+- **Alta adesão de professores e escolas** aos circuitos sensoriais, motores, culturais e narrativos.  
 
-### Timeline Respostas Realizadas
-![Timeline respostas](../img/tabela-geral-de-respostas-do-formulario-da-cidade-2025-11-24T18-23-00.788Z.jpg)
+As experiências ofertadas contribuem diretamente para:
 
-### Pizza Série das Turmas do Questionário
-![Pizza classes de turmas visitantes](../img/categorias-de-turmas-que-participaram-das-visitas-2025-11-24T18-23-28.592Z.jpg)
+- Desenvolvimento da **coordenação motora ampla e fina**;  
+- **Autonomia e exploração** do espaço;  
+- **Imaginação, linguagem e narrativa**;  
+- Fortalecimento de **laços afetivos e de convivência**;  
+- **Regulação emocional** a partir da natureza, do corpo em movimento e do brincar.
 
+> Isso mostra que a Cidade da Criança é mais que um parque: é uma **plataforma pública de desenvolvimento infantil**.
 
-## Avaliações Individuais - Alunos:
+---
 
-### Avaliação Subjetiva por parte dos alunos
-![gráficos alunos](../img/rostos.png)
+### 3. Contribuição para as Políticas de Primeira Infância
 
-## Avaliações Individuais dos Professores - Comparativo:
+Os indicadores reforçam a Cidade da Criança como **referência nacional** em:
 
-### A seguir, as 17 avaliações responderam perguntas quanto ás experiências nas casas da Cidade das Crianças, vale ressaltar que:
+#### ✔ Educação integral e baseada na natureza
+- Brincar ao ar livre;  
+- Experiências sensoriais e culturais;  
+- Ambientes vivos, acolhedores e seguros.
 
-> 1 - Muito Insatisfeito
-> 2 - Insatisfeito
-> 3 - Neutro
-> 4 - Satisfeito
-> 5 - Muito Satisfeito
+#### ✔ Intersetorialidade real
+- Atuação integrada de **CESPI, Gabinete da Primeira-Dama, SME, URBFOR, SEUMA, SDE, SEINFRA, Fecomércio, ENEL, SESC**, entre outras instituições, articuladas em torno de um **propósito comum**: a primeira infância.
 
+#### ✔ Redução das desigualdades
+- Equipamento **gratuito, central e acessível**, que oferece experiências de alta qualidade, comparáveis às das escolas mais estruturadas da cidade.  
+- Amplia o acesso de crianças de territórios vulnerabilizados a **vivências culturais, pedagógicas e de lazer qualificadas**.
 
-### Avaliação Casa do Ateliê
-![Avaliação ateliê](../img/como-foi-a-experiencia-na-casa-do-artelie-2025-11-24T19-05-42.516Z.jpg)
- 
+#### ✔ Política pública viva e cotidiana
+- Não se configura como evento pontual, e sim como **espaço ativo e contínuo**, recomendado pelas escolas e com **fluxo crescente** de visitas.  
 
-### Avaliação Casa da Imaginação
-![Avaliação Imaginação](../img/como-foi-a-experiencia-na-casa-do-imaginacao-2025-11-24T19-05-45.131Z.jpg)
+>colocar os 4 pontos na forma abaixo:
 
+![componente bullet](../img/bulletComponent.jpeg)
 
-### Avaliação Casa da Tecnologia
-![Avaliação Tecnologia](../img/como-foi-a-experiencia-na-casa-do-tecnologia-2025-11-24T19-05-48.404Z.jpg)
- 
+---
 
-### Avaliação da Organização e Acolhimento da Equipe
-![Avaliação Acolhimento Equipe](../img/organizacao-e-acolhimento-da-equipe-2025-11-24T19-05-50.710Z.jpg)
+### 4. Legado Mensurável da Cidade da Criança
 
+Os números demonstram:
 
-### Avaliação da Qualidade das Atividades Pedagógicas
-![Avaliação qualidade atividade pedagógica](../img/qualidade-das-atividades-pedagogicas-2025-11-24T19-05-53.905Z.jpg)
+- **Alta procura** e **impacto amplo** em apenas três meses;  
+- **Confiança das redes de ensino** na proposta pedagógica e na segurança do equipamento.
 
+Trata-se de um equipamento que:
 
-### Avaliação Permanência e Aproveitamento das Instalações
-![Avaliação permanencia e aproveitamento instalações](../img/tempo-de-permanencia-e-aproveitamento-das-estacoes-2025-11-24T19-05-56.626Z.jpg)
+- **Forma cultura de infância em Fortaleza**;  
+- **Aproxima famílias e professores** em torno do direito de brincar;  
+- **Promove saúde emocional** e vínculo com a natureza;  
+- Gera **pertencimento e memória afetiva** nas crianças, famílias e profissionais.
 
+> A Cidade da Criança já se evidencia como uma **política pública de referência**, sustentada por dados, experiência concreta e repercussão social.
 
+---
 
-### Avaliação Da Adequação do Espaço Físico às Necessidades da Turma
-![Avaliação adequação espaço físico necessidades da turma](../img/adequacao-do-espaco-fisico-as-necessidades-da-turma-2025-11-24T19-06-00.305Z.jpg)
+### Síntese Institucional para Relatórios
 
-
-
-### Avaliação da Participação e Engajamento dos Alunos
-![Avaliação participação e engajamento alunos](../img/participacao-e-engajamento-dos-alunos-2025-11-24T19-06-02.931Z.jpg)
-
-
-
-### Avaliação Segurança e Bem Estar Durante as Visitas
-![Avaliação segurança e bem estar visitas](../img/seguranca-e-bem-estar-das-criancas-durante-a-visita-2025-11-24T19-06-05.958Z.jpg)
-
-
-
-### Média Especiências casas temáticas
-![média experiência casas temáticas](../img/output%20(6).png)
-
-
-### Média de Avaliação por Dimensão
-![média avaliação dimensão](../img/output%20(7).png)
-
-
-### Espaço Temático que Mais chamou atenção por avaliação
-![espaço temático que mais chamou atenção](../img/output%20(8).png)
-
-### Média Geral de Avaliação Agrupada pelo espaço favorito Declarado
-![média geral avaliação agrupada pelo espaço favorito declarado](../img/output%20(9).png)
+> “Com **3.828 crianças** vivenciando os circuitos interativos e **108 escolas atendidas** em apenas três meses, a Cidade da Criança reafirma seu papel como **política pública estruturante da primeira infância em Fortaleza**.  
+> O equipamento garante **acesso democrático ao brincar, à natureza, à cultura e às experiências pedagógicas de alta qualidade**, fortalecendo vínculos, aprendizagens e o desenvolvimento integral das crianças.”

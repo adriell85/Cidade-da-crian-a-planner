@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Visitas à Cidade da Criança – Predição 2026</title>
+
+  <!-- amCharts 5 -->
+  <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+  <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+  <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
+  <style>
+    :root{
+      --bg-soft:#E0F7FA;
+      --card:#FFFFFF;
+      --text:#123047;
+      --muted:#607d8b;
+      --radius:20px;
+    }
+
+    body{
+      margin:0;
+      padding:1.5rem;
+      font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      background: radial-gradient(circle at top left, #f1f8ff 0, #e0f7fa 40%, #ffffff 100%);
+      color:var(--text);
+    }
+
+    .wrap{
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    h2{
+      margin:0 0 .25rem;
+      font-weight:700;
+    }
+
+    p.subtitle{
+      margin:.25rem 0 1rem;
+      color:var(--muted);
+      font-size: .95rem;
+    }
+
+    #chartdiv{
+      width:100%;
+      height:500px;
+      background:var(--card);
+      border-radius:var(--radius);
+      box-shadow:0 18px 45px rgba(0,0,0,.08);
+      padding:1rem;
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <h2>Visitas à Cidade da Criança – Observado (2025) x Estimado (2026)</h2>
+  <p class="subtitle">
+    Dados reais de <strong>setembro a novembro de 2025</strong> e projeção de <strong>janeiro a setembro de 2026</strong>,
+    com destaque para a região de estimativa.
+  </p>
+  <div id="chartdiv"></div>
+</div>
+
+<script>
+am5.ready(function() {
+
+  // Cria root e tema
+  var root = am5.Root.new("chartdiv");
+  root.setThemes([
+    am5themes_Animated.new(root)
+  ]);
+
+  // Dados combinados (crianças e escolas)
+  var data = [
+    // Dados observados — 2025
+    { month: "Set/25", kids_obs: 649,  kids_pred: null, schools_obs: 17, schools_pred: null },
+    { month: "Out/25", kids_obs: 1637, kids_pred: null, schools_obs: 42, schools_pred: null },
+    { month: "Nov/25", kids_obs: 1542, kids_pred: null, schools_obs: 38, schools_pred: null },
+
+    // Sem dado para Dez/25
+    { month: "Dez/25", kids_obs: null, kids_pred: null, schools_obs: null, schools_pred: null },
+
+    // Tendência 2026 – estável, com pequena oscilação
+    { month: "Jan/26", kids_obs: null, kids_pred: 1550, schools_obs: null, schools_pred: 39 },
+    { month: "Fev/26", kids_obs: null, kids_pred: 1600, schools_obs: null, schools_pred: 40 },
+    { month: "Mar/26", kids_obs: null, kids_pred: 1620, schools_obs: null, schools_pred: 41 },
+    { month: "Abr/26", kids_obs: null, kids_pred: 1580, schools_obs: null, schools_pred: 40 },
+    { month: "Mai/26", kids_obs: null, kids_pred: 1610, schools_obs: null, schools_pred: 41 },
+    { month: "Jun/26", kids_obs: null, kids_pred: 1590, schools_obs: null, schools_pred: 40 },
+    { month: "Jul/26", kids_obs: null, kids_pred: 1620, schools_obs: null, schools_pred: 41 },
+    { month: "Ago/26", kids_obs: null, kids_pred: 1600, schools_obs: null, schools_pred: 40 },
+    { month: "Set/26", kids_obs: null, kids_pred: 1580, schools_obs: null, schools_pred: 39 }
+  ];
+
+  // Gráfico XY
+  var chart = root.container.children.push(
+    am5xy.XYChart.new(root, {
+      panX: false,
+      panY: false,
+      wheelX: "none",
+      wheelY: "none",
+      layout: root.verticalLayout
+    })
+  );
+
+  // Eixo X (categorias: meses)
+  var xAxis = chart.xAxes.push(
+    am5xy.CategoryAxis.new(root, {
+      categoryField: "month",
+      renderer: am5xy.AxisRendererX.new(root, {
+        minGridDistance: 30
+      })
+    })
+  );
+  xAxis.data.setAll(data);
+
+  // Eixo Y - Crianças
+  var yAxisKids = chart.yAxes.push(
+    am5xy.ValueAxis.new(root, {
+      renderer: am5xy.AxisRendererY.new(root, {})
+    })
+  );
+
+  // Eixo Y - Escolas (lado direito)
+  var yAxisSchools = chart.yAxes.push(
+    am5xy.ValueAxis.new(root, {
+      renderer: am5xy.AxisRendererY.new(root, {
+        opposite: true
+      })
+    })
+  );
+
+  // Função helper para criar séries de linha com cor
+  function createLineSeries(name, field, yAxis, dashed, color) {
+    var series = chart.series.push(
+      am5xy.LineSeries.new(root, {
+        name: name,
+        xAxis: xAxis,
+        yAxis: yAxis,
+        valueYField: field,
+        categoryXField: "month",
+        tooltip: am5.Tooltip.new(root, {
+          labelText: "{name}: {valueY}"
+        })
+      })
+    );
+
+    series.strokes.template.setAll({
+      strokeWidth: 3,
+      strokeDasharray: dashed ? [6, 4] : [],
+      stroke: color
+    });
+
+    series.bullets.push(function() {
+      return am5.Bullet.new(root, {
+        sprite: am5.Circle.new(root, {
+          radius: 4,
+          strokeWidth: 0,
+          fill: color
+        })
+      });
+    });
+
+    series.data.setAll(data);
+    return series;
+  }
+
+  // Cores: observado = verde, estimado = azul
+  var verde = am5.color(0x43A047);
+  var azul  = am5.color(0x1E88E5);
+
+  // Séries de Crianças
+  var sKidsObs  = createLineSeries("Crianças (observado)", "kids_obs",  yAxisKids, false, verde);
+  var sKidsPred = createLineSeries("Crianças (estimado)",  "kids_pred", yAxisKids, true,  azul);
+
+  // Séries de Escolas
+  var sSchObs  = createLineSeries("Escolas (observado)", "schools_obs",  yAxisSchools, false, verde);
+  var sSchPred = createLineSeries("Escolas (estimado)",  "schools_pred", yAxisSchools, true,  azul);
+
+  // Destaque visual da região de estimativa (a partir de Jan/26)
+  var jan26Index = data.findIndex(function(d){ return d.month === "Jan/26"; });
+  if (jan26Index >= 0) {
+    var rangeDataItem = xAxis.makeDataItem({
+      category: data[jan26Index].month,
+      endCategory: data[data.length - 1].month
+    });
+
+    var range = xAxis.createAxisRange(rangeDataItem);
+    range.get("axisFill").setAll({
+      fill: am5.color(0xE3F2FD),
+      fillOpacity: 0.6
+    });
+
+    var label = range.get("label");
+    label.setAll({
+      text: "Faixa de estimativa (2026)",
+      fontSize: 11,
+      dy: -20,
+      fill: am5.color(0x1565C0)
+    });
+  }
+
+  // Legenda
+  var legend = chart.children.push(
+    am5.Legend.new(root, {
+      centerX: am5.p50,
+      x: am5.p50,
+      marginTop: 10,
+      marginBottom: 10
+    })
+  );
+  legend.data.setAll(chart.series.values);
+
+  // Animação de entrada
+  chart.appear(1000, 100);
+
+}); // end am5.ready
+</script>
+</body>
+</html>

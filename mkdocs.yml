@@ -34,11 +34,15 @@ nav:
       - "08 - Metodologia Pedagógica": pages/page08_methodology.md
       - "09 - Gráficos Gerais (Página 1)": pages/page09_dashboard_1.md
       - "10 - Gráficos Gerais (Página 2)": pages/page10_dashboard_2.md
+      
+      - "11 - Gráficos Gerais (Página 3)": pages/page11_dashboard_3.md
+      - "12 - Gráficos Gerais (Página 4)": pages/page12_dashboard_4.md
+      - "13 - Página Final da CIdade (Gráfico e Logos)": pages/page13_PáginaFinalcomLogos.md
 
       # Ferramentas complementares (arquivos antigos na raiz de docs/)
-      - "11 - Roda a Vida Pag1": page11_rodaDaVida.md
-      - "12 - Roda a Vida Pag2": page12_rodaDaVida.md
-      - "13 - Roda a Vida Pag3": page13_rodaDaVida.md
-      - "14 - Roda a Vida Pag4": page14_rodaDaVida.md
-      - "15 - Auto Avaliação Soft Skils": page15_AutoAvaliacaoSoftSkils.md
-      - "16 - Calendários": page16_Calendário.md
+      - "14 - Roda a Vida Pag1": page11_rodaDaVida.md
+      - "15 - Roda a Vida Pag2": page12_rodaDaVida.md
+      - "16 - Roda a Vida Pag3": page13_rodaDaVida.md
+      - "17 - Roda a Vida Pag4": page14_rodaDaVida.md
+      - "18 - Auto Avaliação Soft Skils": page15_AutoAvaliacaoSoftSkils.md
+      - "19 - Calendários": page16_Calendário.md

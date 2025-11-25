@@ -1,50 +1,30 @@
 # 📊 Dashboard – Visitas à Cidade da Criança (Página 2)
 
-## 📌 Indicadores em Destaque (Cards)
+## Opiniões dos Professores - Avaliação Subjetiva
 
-### Quantitativo Total de Alunos que Já Visitaram a Cidade
-![Quantitativo Total de Alunos que Já Visitaram a Cidade](../img/quantitativo-total-de-alunos-que-ja-visitaram-a-cidade-2025-11-24T17-54-38.992Z.jpg)
+| Iniciais | Escola                               | Texto avaliativo                                                            |
+| -------- | ------------------------------------ | --------------------------------------------------------------------------- |
+| MM       | CEI Maria Aglaê                      | A diversidade de atividades, cada criança pode escolher o que mais desejava |
+| EMRL     | CEI JOSÉ DIAS MACEDO                 | As crianças puderam brincar e se divertir.                                  |
+| AC       | CE Dias Macedo                       | Acolhimento excelente                                                       |
+| L        | CEI JOSÉ DIAS MACEDO                 | Tudo muito organizado                                                       |
+| IF       | Semente Montessori Educação Infantil | A qualidade dos materiais, organização e disposição dos mesmos.             |
+| JV       | UniChristus                          | Recepção de todos os funcionários                                           |
+| L        | CEI FRANCISCO EURIVÁ MATIAS          | A organização                                                               |
+| DB       | CEI Francisco Eurivá Matias          | -                                                                           |
+| RC       | CEI Francisco Eurivá Matias          | Os materiais disponíveis para exploração das crianças.                      |
+| MJ       | Faculdade Unichristus                | O atendimento                                                               |
+| JV       | Cidade da Criança                    | Tudo, na verdade. A cidade é encantadora.                                   |
+| J        | Cidade da Criança                    | Os espaços temáticos                                                        |
+| MIBMT    | CEI ALAÍDE AUGUSTO DE OLIVEIRA       | A organização dos espaços                                                   |
+| -        | CEI ALAIDE AUGUSTO DE OLIVEIRA       | As casas super equipadas.                                                   |
+| -        | CEI Alaíde Augusto de Oliveira       | -                                                                           |
+| GKFDS    | Creche Sonho de Criança II           | A recepção calorosa e simpática da senhora Tereza.                          |
+| FRDA     | Creche Sonho de Criança              | -                                                                           |
 
-### Quantitativo Total de Visitas na Cidade
-![Quantitativo Total de Visitas na Cidade](../img/quantitativo-total-de-visitas-na-cidade-2025-11-24T17-54-44.950Z.jpg)
-
----
-
-## 🏆 Top 10 Escolas Visitantes com Mais Alunos
-
-![Barra - Top 10 Escolas Visitantes com Mais Alunos](../img/barra-top-10-escolas-visitantes-com-mais-alunos-2025-11-24T17-54-23.209Z.jpg)
-
----
-
-## 🕒 Distribuição por Turno – Quantidade de Alunos
-
-### Pizza – Quantidade de Alunos por Turno
-![Pizza - Quantidade de Alunos por Turno](../img/pizza-quantidade-de-alunos-por-turno-2025-11-24T17-54-27.143Z.jpg)
-
-### Barra – Quantidade de Alunos por Turno
-![Barra - Quantidade de Alunos por Turno](../img/barra-quantidade-de-alunos-por-turno-2025-11-24T17-54-29.975Z.jpg)
-
----
-
-## 🕒 Distribuição por Turno – Quantidade de Visitas
-
-### Pizza – Quantidade de Visitas por Turno
-![Pizza - Quantidade de Visitas por Turno](../img/pizza-quantidade-de-visitas-por-turno-2025-11-24T17-54-32.813Z.jpg)
-
-### Barra – Quantidade de Visitas por Turno
-![Barra - Quantidade de Visitas por Turno](../img/barra-quantidade-de-visitas-por-turno-2025-11-24T17-54-35.684Z.jpg)
+## Inspiração para colocar os dados acima:
 
 ### Barra – Visitantes por Dia e por Turno
-![Barra - Visitantes por dia e por Turno](../img/output%20(4).png)
+![Barra - Visitantes por dia e por Turno](../img/ComentáriosIMG.jpeg)
 
-### Barra – Número de instituições visitantes por Dia
-![Barra - número de instituições por dia](../img/output%20(5).png)
-
----
-
-## 📝 Reflexões a partir do dashboard
-
-- Como esses dados podem orientar o planejamento de novas visitas?  
-- Há grupos / territórios que ainda não estão sendo alcançados?  
-- Como fortalecer a **equidade** no acesso à Cidade da Criança?  
-- Que parcerias podem ser estimuladas a partir desses números?
+> OBS: cada balão terá o texto do professor, as suas iniciais e o nome da escola

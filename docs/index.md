@@ -28,6 +28,9 @@ O planner está organizado em **páginas institucionais principais** e em **ferr
 - 08 – [Metodologia Pedagógica](pages/page08_methodology.md)  
 - 09 – [Gráficos Gerais – Impacto (Página 1)](pages/page09_dashboard_1.md)  
 - 10 – [Gráficos Gerais – Impacto (Página 2)](pages/page10_dashboard_2.md)  
+- 11 – [Gráficos Gerais – Impacto (Página 3)](pages/page11_dashboard_3.md)  
+- 12 – [Gráficos Gerais – Impacto (Página 4)](pages/page12_dashboard_4.md)  
+- 13 – [Página Final da CIdade – Texto e Logos](pages/page13_PáginaFinalcomLogos.md)  
 
 ---
 

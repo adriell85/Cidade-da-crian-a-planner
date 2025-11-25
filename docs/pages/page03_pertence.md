@@ -8,7 +8,8 @@
 > Eu sou
 
 
-**QR Code:**  
+### AR Code
+![QR code](../img/QRCode.png)
 
 <!-- **Cidade da Criança — Fortaleza, CE**  
 Primeira Infância Viva • Gabinete da Primeira-Dama • CESPI -->
