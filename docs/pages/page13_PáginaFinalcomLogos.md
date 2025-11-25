@@ -7,3 +7,6 @@
 
 
 ![ícone extras](../img/LogofortalezaInclusiva.jpeg)
+
+
+>OBS: Reproduzir fiel a página acima, mas acrescentando a logo do fortaleza inclusiva!

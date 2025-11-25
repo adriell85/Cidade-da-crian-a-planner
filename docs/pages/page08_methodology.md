@@ -14,3 +14,5 @@
 
 
 ![objetvos](../img/metodologia.jpg)
+
+>OBS: Seguir fielmente o modelo da foto!

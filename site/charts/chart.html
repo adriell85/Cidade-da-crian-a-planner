@@ -54,10 +54,10 @@
 </head>
 <body>
 <div class="wrap">
-  <h2>Visitas à Cidade da Criança – Observado (2025) x Estimado (2026)</h2>
+  <h2>Visitas à Cidade da Criança – Crianças (Observado 2025 x Estimado 2026)</h2>
   <p class="subtitle">
-    Dados reais de <strong>setembro a novembro de 2025</strong> e projeção de <strong>janeiro a setembro de 2026</strong>,
-    com destaque para a região de estimativa.
+    Dados reais de <strong>setembro a novembro de 2025</strong> e projeção sazonal de <strong>janeiro a setembro de 2026</strong>,
+    com menor fluxo nos meses de férias e pequenas oscilações ao longo do ano.
   </p>
   <div id="chartdiv"></div>
 </div>
@@ -71,26 +71,26 @@ am5.ready(function() {
     am5themes_Animated.new(root)
   ]);
 
-  // Dados combinados (crianças e escolas)
+  // Dados: apenas crianças
   var data = [
-    // Dados observados — 2025
-    { month: "Set/25", kids_obs: 649,  kids_pred: null, schools_obs: 17, schools_pred: null },
-    { month: "Out/25", kids_obs: 1637, kids_pred: null, schools_obs: 42, schools_pred: null },
-    { month: "Nov/25", kids_obs: 1542, kids_pred: null, schools_obs: 38, schools_pred: null },
+    // Observado — 2025
+    { month: "Set/25", kids_obs: 649,  kids_pred: null },
+    { month: "Out/25", kids_obs: 1637, kids_pred: null },
+    { month: "Nov/25", kids_obs: 1542, kids_pred: null },
 
     // Sem dado para Dez/25
-    { month: "Dez/25", kids_obs: null, kids_pred: null, schools_obs: null, schools_pred: null },
+    { month: "Dez/25", kids_obs: null, kids_pred: null },
 
-    // Tendência 2026 – estável, com pequena oscilação
-    { month: "Jan/26", kids_obs: null, kids_pred: 1550, schools_obs: null, schools_pred: 39 },
-    { month: "Fev/26", kids_obs: null, kids_pred: 1600, schools_obs: null, schools_pred: 40 },
-    { month: "Mar/26", kids_obs: null, kids_pred: 1620, schools_obs: null, schools_pred: 41 },
-    { month: "Abr/26", kids_obs: null, kids_pred: 1580, schools_obs: null, schools_pred: 40 },
-    { month: "Mai/26", kids_obs: null, kids_pred: 1610, schools_obs: null, schools_pred: 41 },
-    { month: "Jun/26", kids_obs: null, kids_pred: 1590, schools_obs: null, schools_pred: 40 },
-    { month: "Jul/26", kids_obs: null, kids_pred: 1620, schools_obs: null, schools_pred: 41 },
-    { month: "Ago/26", kids_obs: null, kids_pred: 1600, schools_obs: null, schools_pred: 40 },
-    { month: "Set/26", kids_obs: null, kids_pred: 1580, schools_obs: null, schools_pred: 39 }
+    // Tendência 2026 – mais variação, com menor fluxo em meses de férias (Jan e Jul)
+    { month: "Jan/26", kids_obs: null, kids_pred: 1400 },
+    { month: "Fev/26", kids_obs: null, kids_pred: 1550 },
+    { month: "Mar/26", kids_obs: null, kids_pred: 1650 },
+    { month: "Abr/26", kids_obs: null, kids_pred: 1600 },
+    { month: "Mai/26", kids_obs: null, kids_pred: 1700 },
+    { month: "Jun/26", kids_obs: null, kids_pred: 1620 },
+    { month: "Jul/26", kids_obs: null, kids_pred: 1450 },
+    { month: "Ago/26", kids_obs: null, kids_pred: 1680 },
+    { month: "Set/26", kids_obs: null, kids_pred: 1630 }
   ];
 
   // Gráfico XY
@@ -122,27 +122,20 @@ am5.ready(function() {
     })
   );
 
-  // Eixo Y - Escolas (lado direito)
-  var yAxisSchools = chart.yAxes.push(
-    am5xy.ValueAxis.new(root, {
-      renderer: am5xy.AxisRendererY.new(root, {
-        opposite: true
-      })
-    })
-  );
-
   // Função helper para criar séries de linha com cor
-  function createLineSeries(name, field, yAxis, dashed, color) {
+  function createLineSeries(name, field, dashed, color) {
     var series = chart.series.push(
       am5xy.LineSeries.new(root, {
         name: name,
         xAxis: xAxis,
-        yAxis: yAxis,
+        yAxis: yAxisKids,
         valueYField: field,
         categoryXField: "month",
         tooltip: am5.Tooltip.new(root, {
           labelText: "{name}: {valueY}"
-        })
+        }),
+        stroke: color,
+        fill: color
       })
     );
 
@@ -171,12 +164,8 @@ am5.ready(function() {
   var azul  = am5.color(0x1E88E5);
 
   // Séries de Crianças
-  var sKidsObs  = createLineSeries("Crianças (observado)", "kids_obs",  yAxisKids, false, verde);
-  var sKidsPred = createLineSeries("Crianças (estimado)",  "kids_pred", yAxisKids, true,  azul);
-
-  // Séries de Escolas
-  var sSchObs  = createLineSeries("Escolas (observado)", "schools_obs",  yAxisSchools, false, verde);
-  var sSchPred = createLineSeries("Escolas (estimado)",  "schools_pred", yAxisSchools, true,  azul);
+  var sKidsObs  = createLineSeries("Crianças (observado)", "kids_obs",  false, verde);
+  var sKidsPred = createLineSeries("Crianças (estimado)",  "kids_pred", true,  azul);
 
   // Destaque visual da região de estimativa (a partir de Jan/26)
   var jan26Index = data.findIndex(function(d){ return d.month === "Jan/26"; });

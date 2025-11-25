@@ -7,3 +7,6 @@
 > Todos os ambientes foram cuidadosamente elaborados para despertar a curiosidade, estimular a arte e a criatividade, valorizar a cultura, garantir os direitos da criança e proporcionar o brincar livre como base essencial do desenvolvimento e da aprendizagem infantil.
 
 ![apresentação](../img/apresentacao.jpg)
+
+
+>OBS: Seguir fielmente o modelo da foto!

@@ -39,3 +39,4 @@
 
 ![circuitoseCasas](../img/circuitoseCasas.jpg)
 
+>OBS: Seguir fielmente o modelo da foto!

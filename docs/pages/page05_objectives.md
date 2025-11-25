@@ -14,3 +14,5 @@
 
 
 ![objetvos](../img/objetivos.jpg)
+
+>OBS: Seguir fielmente o modelo da foto!
