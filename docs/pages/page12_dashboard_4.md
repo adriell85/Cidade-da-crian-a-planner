@@ -14,8 +14,10 @@
 >“Mantido o ritmo observado entre setembro e novembro de 2025, a Cidade da Criança poderá alcançar, em 2026, cerca de 15.312 >crianças e 432 escolas, preservando um índice de satisfação em torno de 96% de avaliações ‘Ótimo’.
 >Esses números projetam um forte impacto educacional, territorial e afetivo, consolidando a Cidade da Criança como política >pública estruturante e contínua da primeira infância em Fortaleza.”
 
-### Estimativa quantidade de alunos mensal
-![estimativa alunos mensal](../img/Estimativaaa.png)
+>“Trata-se de uma projeção linear simples, tomando como base o ritmo de visitas observado entre setembro e novembro de 2025, desconsiderando sazonalidades (férias escolares) e possíveis ampliações de capacidade operacional.”
+
+<!-- ### Estimativa quantidade de alunos mensal
+![estimativa alunos mensal](../img/Estimativaaa.png) -->
 
 
 
